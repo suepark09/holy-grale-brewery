@@ -3,25 +3,100 @@ html body {
     margin: 0;
 }
 
+body {
+    font-family: 'Crimson Text', serif;
+}
+
 .jumbotron {
     height: 50vh;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
-    vertical-align: middle;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav > li {
+    font-family: 'Teko', sans-serif;
+    color: white !important;
+    font-size: 16pt !important;
+}
+
+#footer {
+    background-color: #3B332B !important;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-title {
+    font-family: 'Teko', sans-serif;
+    color: white !important;
+    font-size: 15pt;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.address {
+    color: white !important;
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    color: white !important;
 }
 
 .container {
     text-align: center;
+
 }
 
-footer {
-    border: solid lightblue;
-    background-color: light-grey;
-    height: 20vh;
-    width: 100%;
-    margin-top: 50px;
+.navbar {
+    background-color: #3B332B !important; 
 }
+
+.navbar a { 
+    color: white !important;
+    font-size: 17pt !important;
+}
+
+a:hover { 
+    color: #C4624f !important;
+  }
+
+.navbar-nav {
+    margin-left: auto !important; 
+}
+
+.navbar li {
+    padding-left: 7px;
+}
+
+.navbar ul {
+    text-align: right !important;
+}
+
+
 
 
