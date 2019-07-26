@@ -1,0 +1,116 @@
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+.jumbotron {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url("/img/placeholder.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.display-4 {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #24201b !important; 
+}
+
+.navbar a { 
+    color: white !important;
+    font-size: 17.3spt !important;
+}
+
+.navbar-nav {
+    margin-left: auto !important; 
+}
+
+.navbar li {
+    padding-left: 7px;
+}
+
+.navbar ul {
+    text-align: right !important;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav > li {
+    font-family: 'Teko', sans-serif;
+    color: white !important;
+    font-size: 16pt !important;
+}
+
+#footer {
+    background-color: #24201b !important;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-title {
+    font-family: 'Teko', sans-serif;
+    color: white !important;
+    font-size: 15pt;
+
+}
+
+.heart {
+    padding-bottom: 3px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.address {
+    color: white !important;
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    color: white !important;
+}
+
+a:hover { 
+    color: #df5b42 !important;
+  }
+
+
+
+
+
+
