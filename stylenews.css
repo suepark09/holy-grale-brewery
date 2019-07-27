@@ -31,6 +31,13 @@ body {
 
 .display-4 {
     color: white !important;
+    /* Changes Below */
+    font-size: 100px;
+}
+.display-4a {
+    color: white !important;
+    font-size: 50px;
+    
 }
 
 .navbar {
@@ -127,16 +134,86 @@ a:hover {
   }
   .joustpic {
     background-image: url("img/joust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     padding: 0px;
     margin: 0px;
   }
   .joustnews {
+    /* background-image: url("img/newsbackground.jpg"); */
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
       height: 500px;
       align-content: center;
-
   }
-
+  .newsheadline {
+      font-size: 40px;
+      font-weight: bolder;
+      padding-top: 70px;
+      color: black;
+      align-content: center;
+      text-align: center;
+  }
+  .newssubheadline {
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    align-content: center;
+    text-align: center;
+  }
+  .newsinfo {
+      font-size: 20px;
+      color: black;
+      align-content: center;
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .brewpic {
+    background-image: url("img/brew.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .brewnews {
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+      height: 500px;
+      align-content: center;
+  }
+  .brewnewsheadline {
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    align-content: center;
+    text-align: center;
+}
+.brewnewssubheadline {
+  font-size: 25px;
+  padding-top: 70px;
+  font-weight: bolder;
+  color: black;
+  align-content: center;
+  text-align: center;
+}
+.moreinfo {
+    font-size: 25px;
+  padding-top: 70px;
+  font-weight: bolder;
+  color: black;
+  align-content: center;
+  text-align: right;
+  padding-right: 30px;
+}
 
 
 
