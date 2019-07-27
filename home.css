@@ -1,0 +1,26 @@
+.jumbotron-home {
+    height: 80vh;
+}
+
+.cans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid lightblue;
+}
+
+.can-row {
+    border: solid red;
+    margin-top: -5em;
+
+}
+
+.img-fluid {
+    max-width: 50%;
+    min-width: 30%;
+    max-height: auto; 
+  }
+
+
+
+

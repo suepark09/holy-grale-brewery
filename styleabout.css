@@ -8,11 +8,8 @@ html body {
 
 }
 
-.container-jumbotron {
-    display: flex;
-    justify-content: center;
-/* .container-header {
-    text-align: center; */
+.container-header {
+    text-align: center;
 }
 
 body {
@@ -116,6 +113,11 @@ a:hover {
     color: #df5b42 !important;
   }
 
+.about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 
 
