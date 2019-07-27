@@ -4,8 +4,12 @@ html body {
 }
 
 .container {
-    text-align: center;
+    text-align: left;
 
+}
+
+.container-header {
+    text-align: center;
 }
 
 body {
@@ -17,7 +21,7 @@ body {
     text-align: center;
     display: flex;
     align-items: center;
-    background-image: url("/img/placeholder.jpg");
+    background-image: url("img/placeholder.jpg");
     background-size: cover;
     background-position: center;
 }
