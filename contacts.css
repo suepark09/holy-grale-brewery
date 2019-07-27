@@ -1,0 +1,60 @@
+
+html body {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color: #303030 !important; 
+    background-color: #24201b !important; 
+}
+
+
+a:hover { 
+    color: #52c19e !important;
+    color: #df5b42 !important;
+  }
+
+.jumbotron {
+    background-image:url('cheers-839865_1920.jpg');
+    background-size: cover; 
+    height: 50vh;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+
+}
+
+.container {
+    text-align: center;
+}
+
+
+::placeholder{
+    color: #d2d1d1;
+
+    
+} 
+
+input {
+    margin-bottom: 5px;
+    border: 1px solid #d2d1d1;
+    width: 40vh;
+}
+
+.message {
+    height: 30vh;
+}
+
+footer {
+    border: solid lightblue;
+    background-color: #303030 !important; 
+    background-color: #24201b !important; 
+    height: 20vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
