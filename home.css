@@ -8,12 +8,21 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h3, h4, h5 {
     font-family: 'Teko', sans-serif;
 }
 
-h4 {
-    font-family: 'Teko', sans-serif;
+.event-title {
+    margin-top:13px;
+}
+
+.event-date {
+    margin-top: -10px;
+}
+
+.event-card {
+    /* border: solid lightblue; */
+    min-height: 300px;
 }
 
 .sub-heading {
