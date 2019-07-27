@@ -8,8 +8,11 @@ html body {
 
 }
 
-.container-header {
-    text-align: center;
+.container-jumbotron {
+    display: flex;
+    justify-content: center;
+/* .container-header {
+    text-align: center; */
 }
 
 body {
