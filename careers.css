@@ -8,11 +8,14 @@ html body {
 
 }
 
-.container-header {
-    text-align: center;
+.container-jumbotron {
+    display: flex;
+    justify-content: center;
+/* .container-header {
+    text-align: center; */
 }
 
-body, .about{
+body {
     font-family: 'Crimson Text', serif;
 }
 
@@ -61,6 +64,8 @@ h1 {
     color: white !important;
     font-size: 16pt !important;
 }
+
+
 
 #footer {
     background-color: #24201b !important;
@@ -113,15 +118,8 @@ a:hover {
     color: #df5b42 !important;
   }
 
-.about {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 
-h1 {
-  margin: 10px 0 10px 0;
-}
+
 
 
 
