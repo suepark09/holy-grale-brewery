@@ -1,12 +1,48 @@
-.jumbotron-home {
+
+@media only screen and (max-width: 800px) {
+   .can-col {
+      width: 50%;
+    }
+
+    .slogan {
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .event-card {
+        margin-bottom: 15px;
+    }
+
+    .why-us-img {
+        margin-bottom: 15px;
+    }
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  .placeholder {
+      background: url("img/home-background.jpg") !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .jumbotron-home {
     height: 80vh !important;
   
 }
 
-/* test */
+.sub-slogan {
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+}
 
 h1 {
     text-align: center;
+    line-height: 80px;
 }
 
 h3, h4, h5 {
@@ -14,12 +50,43 @@ h3, h4, h5 {
 }
 
 .slogan {
+    font-weight: 500;
     color: white;
     font-size: 6em;
 }
 
+.can-row {
+    margin-top: -10em;
+}
+
+.btn-row {
+    text-align: center;
+  
+}
+
+.cto-button {
+    font-family: 'Teko', sans-serif;
+    background-color: #24201b;
+    border: none;
+    font-size: 17pt;
+    vertical-align: middle;
+    width: 160px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 6px;
+    padding-bottom: 35px;
+    border-radius: 0; 
+}
+
+.btn-primary:hover {
+   background-color: #24201b;
+}
+
+
 .container {
-    border: solid lightcoral;
+    /* border: solid lightcoral; */
+    padding-bottom: 15px;
 }
 
 .event-title {
@@ -28,21 +95,30 @@ h3, h4, h5 {
 
 .event-date {
     margin-top: -10px;
+    color: #df5b42;
 }
 
 .event-card {
     /* border: solid lightblue; */
+     padding-bottom: 15px;
     min-height: 300px;
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
+-moz-box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
+box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
+}
+
+.event-info {
+    padding-left: 18px;
+    padding-right: 18px;
+   
 }
 
 .events-section {
-    background-color: lightcyan;
     position: relative;
-    width: 100% !important; 
 }
 
 .events-background {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     z-index: -2;
     position: absolute;
     top: 145vh;
@@ -51,16 +127,60 @@ h3, h4, h5 {
 }
 
 .sub-heading {
-    margin-bottom: 28px;
+    margin-top: 3px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
-.section {
-    margin-top: 50px;
+.subscribe-section {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: red solid; */
+    background: url("img/placeholder.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.subscribe-title {
+    font-size: 6em;
+
+    
+}
+
+.subscribe-text {
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.form {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+input {
+    width: 50vw !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.subscribe-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Teko', sans-serif;
+    font-size: 17pt;
+    vertical-align: middle;
+    padding-top: 3px;
+    background-color: #24201b !important;
+    border: none;
 }
 
 .jumbotron {
-    border: solid red !important;
     text-align: center !important;
 }
 
@@ -68,14 +188,8 @@ h3, h4, h5 {
     text-align: center;
 }
 
-.gallery1 {
-  overflow: hidden;
-   border: solid red;
-   height: 15rem;
-}
-
-.img-food {
-    width: 100%;
+#footer {
+    margin-top: 0 !important;
 }
 
 
