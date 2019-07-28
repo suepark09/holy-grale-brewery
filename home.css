@@ -16,6 +16,11 @@
     .why-us-img {
         margin-bottom: 15px;
     }
+
+    .subscribe-text {
+        margin-top: 196px !important;
+    
+    }
   }
 
   html, body {
@@ -27,6 +32,8 @@
       background: url("img/home-background.jpg") !important;
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center !important; 
+    
   }
   
   .jumbotron-home {
@@ -73,7 +80,7 @@ h3, h4, h5 {
     width: 160px;
     height: 40px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding-top: 6px;
     padding-bottom: 35px;
     border-radius: 0; 
@@ -133,28 +140,35 @@ box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
 }
 
 .subscribe-section {
+    position: relative;
+    margin-top: 30px;
     padding-top: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* border: red solid; */
-    background: url("img/placeholder.jpg");
+    background: url("img/footer-background.jpg");
+    /* background-position: 0px 20px; */
     background-size: cover;
     width: 100%;
 }
 
 .subscribe-title {
-    font-size: 6em;
-
+    font-size: 6.5em;
+    line-height: 65pt;
+    position: absolute;
+    top: 8px;
     
 }
 
 .subscribe-text {
     text-align: center;
+    margin-top: 170px;
     margin-right: 120px;
     margin-left: 120px;
+    color: white;
+
 }
 
 .form {
@@ -164,7 +178,7 @@ box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
 }
 
 input {
-    width: 50vw !important;
+    width: 53vw !important;
     border-radius: 0 !important;
     border: none !important;
 }
@@ -192,8 +206,33 @@ input {
     margin-top: 0 !important;
 }
 
+.blackknight:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
+.lancelot:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
+.enchanter:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.bunny:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
 
 
