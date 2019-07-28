@@ -17,7 +17,7 @@ body {
 }
 
 .jumbotron {
-    height: 50vh;
+    /* height: 50vh; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -27,6 +27,7 @@ body {
     /* Changes Below */
     padding: 0px;
     margin: 0px;
+    height: 30vh;
 }
 
 .display-4 {
