@@ -3,8 +3,12 @@ html body {
     margin: 0;
 }
 
-.container {
+.top {
     text-align: left;
+    background-image: url("img/montypython-1564507006301-2363.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -146,12 +150,14 @@ span.name {
 
 p.body-first {
   text-indent: 0;
+  color: maroon;
+  margin-right: 200px;
 }
 
-.zoom {
-
+div.about {
+    padding-bottom: 80px;
 }
 
-.zoom:hover {
-  transform: scale(1);
+.card {
+    border: 1px solid black;
 }
