@@ -25,12 +25,26 @@ h1 {
 
 header {
     display: flex;
-    background: #24201b;
+    justify-content: flex-start;
+    background-image: url("img/home-background.jpg");
+    background-size: cover;
+    background-position: center;
     height: 80px; 
     width: 100vw;
-    justify-content: center;
     align-items: center;
     padding: 30px;
+}
+
+.header-text {
+    color: white;
+    border: red solid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-heading {
+    margin-top: -15px;
 }
 
 h1, h4, h3, h2 {
@@ -38,14 +52,28 @@ h1, h4, h3, h2 {
 }
 
 .container > div {
-    height: 700px;
+    min-height: 400px; 
 }
 
 .content {
     display: flex;
-    justify-content: center;
-    flex: 2;
+    flex: 3;
     background: white;
+    margin-top: 20px;
+}
+
+.why-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid red;
+    width: 50%;
+    justify-content: center;
+}
+
+.whus-img {
+    display: flex;
+    justify-content: center;
 }
 
 .section {
@@ -58,24 +86,66 @@ h1, h4, h3, h2 {
     font-family:'Teko', sans-serif;
     font-size: 1.5em;
     display: flex;
-    justify-content: center;
+    padding-left: 40px;
     flex: 1;
-    background: grey;
+    background: #24201b;
     color: white;
-    height: 400px; 
+    height: 300px; 
 }
 
 .menu > ul {
     list-style: none;
+    font-size: .9em;
 }
 
 .ad {
     padding-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex: 1;
-    background: lightpink;
-    height: 400px; 
+    padding: 0 15px 0 15px;
+    flex: 2;
+    background: #262525;
+    height: 300px; 
+    align-content: flex-start;
+}
+
+.event, .event-list {
+    border: solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+   
+}
+
+.event-date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.event-img {
+    margin: 10px;
+}
+
+.subscribe-section {
+    position: relative;
+    margin-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url("img/footer-background.jpg");
+    /* background-position: 0px 20px; */
+    background-size: cover;
+    width: 100%;
 }
 
 footer {
@@ -83,5 +153,5 @@ footer {
     justify-content: center;
     width: 100%;
     height: 120px; 
-    background: lightgoldenrodyellow; 
+    background: #24201b;
 }
