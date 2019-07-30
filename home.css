@@ -24,7 +24,7 @@
     }
 
     .subscribe-text {
-        margin-top: 196px !important;
+        margin-top: 76px !important;
     
     }
   }
@@ -47,12 +47,6 @@
   
 }
 
-.sub-slogan {
-    color: white;
-    text-align: center;
-    margin-top: -10px;
-}
-
 h1 {
     text-align: center;
     line-height: 80px;
@@ -65,11 +59,18 @@ h3, h4, h5 {
 .slogan {
     font-weight: 500;
     color: white;
-    font-size: 6em;
+    font-size: 7em;
+}
+
+.sub-slogan {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: -3px;
 }
 
 .can-row {
-    margin-top: -10em;
+    margin-top: -11em;
 }
 
 .btn-row {
@@ -85,10 +86,8 @@ h3, h4, h5 {
     vertical-align: middle;
     width: 160px;
     height: 40px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    padding-top: 6px;
-    padding-bottom: 35px;
+    margin: 15px 0 30px 0;
+    padding: 6px 0 35px 0; 
     border-radius: 0; 
 }
 
@@ -121,9 +120,7 @@ box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
 }
 
 .event-info {
-    padding-left: 18px;
-    padding-right: 18px;
-   
+    padding: 0 18px 0 18px;
 }
 
 .events-section {
@@ -140,16 +137,14 @@ box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
 }
 
 .sub-heading {
-    margin-top: 3px;
-    margin-bottom: 5px;
+    margin: 3px 0 5px 0;
     text-align: center;
 }
 
 .subscribe-section {
     position: relative;
-    margin-top: 30px;
-    padding-top: 70px;
-    padding-bottom: 80px;
+    margin-top: -70px;
+    padding: 30px 0 80px 0;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -163,24 +158,20 @@ box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
 .subscribe-title {
     font-size: 6.5em;
     line-height: 65pt;
-    position: absolute;
-    top: 8px;
-    
+    margin-top: 26px;
+    position: relative;
+    z-index: 2;
 }
 
 .subscribe-text {
     text-align: center;
-    margin-top: 170px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin: 90px 120px 0 120px;
     color: white;
-
 }
 
 .form {
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 55px;
+    margin: 25px 0 55px 0;
 }
 
 input {
@@ -190,12 +181,10 @@ input {
 }
 
 .subscribe-btn {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 3px 20px 0 20px; 
     font-family: 'Teko', sans-serif;
     font-size: 17pt;
     vertical-align: middle;
-    padding-top: 3px;
     background-color: #24201b !important;
     border: none;
 }
