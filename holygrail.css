@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url("img/home-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80px; 
+    width: 100vw;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-text {
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-heading {
+    margin-top: -15px;
+}
+
+h1, h4, h3, h2 {
+    text-align: center;
+}
+
+.container > div {
+    min-height: 400px; 
+}
+
+.content {
+    display: flex;
+    flex: 3;
+    background: white;
+    margin-top: 40px;
+}
+
+.why-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;;
+    margin-right: 18px;
+}
+
+.whus-img {
+    padding-left: 15px;
+    display: flex;
+    justify-items: center;
+}
+
+.section {
+    width: 60vw;
+    margin-top: 20px 15px 15px 15px;
+}
+
+.menu {
+    padding-top: 20px;
+    font-family:'Teko', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    padding-left: 40px;
+    flex: 1;
+    background: #24201b;
+    color: white;
+    height: auto;
+}
+
+.menu > ul {
+    list-style: none;
+    font-size: .9em;
+}
+
+.ad {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 15px 0 15px;
+    flex: 2;
+    background: #262525;
+    height: auto;
+    align-content: flex-start;
+}
+
+.events-title {
+    padding-top: 20px;
+    color: white;
+}
+
+.event, .event-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+   
+}
+
+.event-date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.event-img {
+    margin: 10px;
+}
+
+.subscribe-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url("img/footer-background.jpg");
+    /* background-position: 0px 20px; */
+    background-size: cover;
+    flex: 3;
+}
+
+    .footer-links > ul > li {
+        display: inline-block;
+        margin: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+
+footer {
+    /* display: flex; */
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    height: 120px; 
+    background-color: black;
+}
