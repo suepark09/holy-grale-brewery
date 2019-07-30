@@ -52,7 +52,7 @@ body, .about{
 }
 
 h1 {
-    font-family: 'Teko', sans-serif;
+    font-family: 'MedievalSharp', sans-serif;
     font-weight: 400;
 }
 
@@ -123,5 +123,35 @@ h1 {
   margin: 10px 0 10px 0;
 }
 
+span {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 5em;
+  color: gray;
+  float: left;
+  line-height: 1;
+  margin-bottom: -0.353em;
+  margin-right: 0.15em;
+  margin-left: -0.15em;
+}
 
+span.name {
+  font-family: 'MedievalSharp', cursive;
+  color: gray;
+  font-size: 1em;
+}
 
+.special {
+  margin-top: 16px;
+}
+
+p.body-first {
+  text-indent: 0;
+}
+
+.zoom {
+
+}
+
+.zoom:hover {
+  transform: scale(1);
+}
