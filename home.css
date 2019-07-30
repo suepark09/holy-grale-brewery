@@ -1,16 +1,109 @@
-.jumbotron-home {
+@media only screen and (min-width: 990px) {
+    .can-row {
+        width: 60vw;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+   .can-col {
+      width: 50%;
+    }
+
+    .slogan {
+        margin-bottom: 11px;
+        font-size: 1em;
+    }
+
+    .event-card {
+        margin-bottom: 15px;
+    }
+
+    .why-us-img {
+        margin-bottom: 15px;
+    }
+
+    .subscribe-text {
+        margin-top: 76px !important;
+    
+    }
+
+    .can-row {
+        width: 60vw;
+        margin-top: -9em !important;
+    }
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  .placeholder {
+      background: url("img/home-background.jpg") !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center !important; 
+    
+  }
+  
+  .jumbotron-home {
     height: 80vh !important;
   
 }
 
-/* test */
-
 h1 {
     text-align: center;
+    line-height: 80px;
 }
 
 h3, h4, h5 {
     font-family: 'Teko', sans-serif;
+}
+
+.slogan {
+    font-weight: 500;
+    color: white;
+    font-size: 7em;
+}
+
+.sub-slogan {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: -3px;
+}
+
+.can-row {
+    margin-top: -11em;
+}
+
+.btn-row {
+    text-align: center;
+  
+}
+
+.cto-button {
+    font-family: 'Teko', sans-serif;
+    background-color: #24201b;
+    border: none;
+    font-size: 17pt;
+    vertical-align: middle;
+    width: 160px;
+    height: 40px;
+    margin: 15px 0 30px 0;
+    padding: 6px 0 35px 0; 
+    border-radius: 0; 
+}
+
+.btn-primary:hover {
+   background-color: #24201b;
+}
+
+
+.container {
+    /* border: solid lightcoral; */
+    padding-bottom: 15px;
 }
 
 .event-title {
@@ -19,24 +112,89 @@ h3, h4, h5 {
 
 .event-date {
     margin-top: -10px;
+    color: #df5b42;
 }
 
 .event-card {
     /* border: solid lightblue; */
+     padding-bottom: 15px;
     min-height: 300px;
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
+-moz-box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
+box-shadow: 1px 1px 5px 2px rgba(199,199,199,1);
+}
+
+.event-info {
+    padding: 0 18px 0 18px;
+}
+
+.events-section {
+    position: relative;
+}
+
+.events-background {
+    /* background-color: lightcoral; */
+    z-index: -2;
+    position: absolute;
+    top: 145vh;
+    height: 60%;
+    width: 100%;
 }
 
 .sub-heading {
-    margin-bottom: 25px;
+    margin: 3px 0 5px 0;
     text-align: center;
 }
 
-.section {
-    margin-top: 50px;
+.subscribe-section {
+    position: relative;
+    margin-top: -70px;
+    padding: 30px 0 80px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url("img/footer-background.jpg");
+    /* background-position: 0px 20px; */
+    background-size: cover;
+    width: 100%;
+}
+
+.subscribe-title {
+    font-size: 6.5em;
+    line-height: 65pt;
+    margin-top: 26px;
+    position: relative;
+    z-index: 2;
+}
+
+.subscribe-text {
+    text-align: center;
+    margin: 90px 120px 0 120px;
+    color: white;
+}
+
+.form {
+    display: flex;
+    margin: 25px 0 55px 0;
+}
+
+input {
+    width: 53vw !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.subscribe-btn {
+    padding: 3px 20px 0 20px; 
+    font-family: 'Teko', sans-serif;
+    font-size: 17pt;
+    vertical-align: middle;
+    background-color: #24201b !important;
+    border: none;
 }
 
 .jumbotron {
-    border: solid red !important;
     text-align: center !important;
 }
 
@@ -44,8 +202,37 @@ h3, h4, h5 {
     text-align: center;
 }
 
+#footer {
+    margin-top: 0 !important;
+}
 
+.blackknight:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
+.lancelot:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.enchanter:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.bunny:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
 
 
