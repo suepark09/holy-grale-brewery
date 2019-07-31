@@ -1,13 +1,13 @@
 # Holy Grale Brewery
 ## Table of Contents
 
-- [General info]
-- [Setup] 
-- [Screenshots]
-- [Technologies]
-- [Features]
-- [Status]
-- [Team]
+- [General Information](https://github.com/suepark09/holy-grale-brewery/blob/master/README.md#general-information)
+- [Setup](https://github.com/suepark09/holy-grale-brewery#set-up)
+- [Screenshots]()
+- [Technologies Used](https://github.com/suepark09/holy-grale-brewery#technologies-used)
+- [Features](https://github.com/suepark09/holy-grale-brewery#features)
+- [Status](https://github.com/suepark09/holy-grale-brewery#status)
+- [Team](https://github.com/suepark09/holy-grale-brewery#team)
 
 ## General Information
 
@@ -36,10 +36,10 @@ To view the project, simply clone the repository and open home.html
 
 ## Team
 
-Jerome Dela Cruz
-Robert Foreman
-Chantee Smith
-Sue Park
+- Jerome Dela Cruz
+- Robert Foreman
+- Chantee Smith
+- Sue Park
 
 ## Status
 
