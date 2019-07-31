@@ -1,11 +1,46 @@
-# Our project is about a Monty Python Holy Grale Brewery!
+# Holy Grale Brewery
+## Table of Contents
 
-Our team is made up of Sue Park, Jerome Dela Cruz, Robert Foreman, and Chantee Smith.
+- [General info]
+- [Setup] 
+- [Screenshots]
+- [Technologies]
+- [Features]
+- [Status]
+- [Team]
 
-Sue has been working on our template of the page with the nav bar, and footer. She is also working on our homepage.
+## General Information
 
-Jerome has been working on our about page with the styling and layout of it.
+The premise of this project is to create a website as a group of four, for a Monty Python Holy Grail inspired brewery called the Holy Grale. 
 
-Robert has been working on our contact and careers pages as well as the layout of it.
+## Set Up
 
-Chantee has been working on our news page as well as the layout of it.
+To view the project, simply clone the repository and open home.html 
+
+## Technologies Used
+
+- Visual Studio Code
+- HTML & CSS
+- Bootstrap 4
+- Adobe Photoshop & Illustrator
+
+## Features
+
+- Homepage & base template: created by Sue Park
+- About Us: created by Jerome Dela Cruz
+- News: created by Chantee Smith
+- Careers: created by Robert Foreman
+- Contact: created by Robert Foreman
+
+**Additional Features** 
+
+## Team
+
+Jerome Dela Cruz
+Robert Foreman
+Chantee Smith
+Sue Park
+
+## Status
+
+Although we completed the front-facing part of the site, the main purpose of this project was to learn more about the git workflow, while learning how to work as a team. Hence some of the features on the site may not be fully functional, and will most likely not be updated in the future.
