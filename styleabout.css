@@ -3,8 +3,12 @@ html body {
     margin: 0;
 }
 
-.container {
+.top {
     text-align: left;
+    background-image: url("img/montypython-1564507006301-2363.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -12,7 +16,7 @@ html body {
     text-align: center;
 }
 
-body {
+body, .about{
     font-family: 'Crimson Text', serif;
 }
 
@@ -52,7 +56,7 @@ body {
 }
 
 h1 {
-    font-family: 'Teko', sans-serif;
+    font-family: 'MedievalSharp', sans-serif;
     font-weight: 400;
 }
 
@@ -119,7 +123,41 @@ a:hover {
     flex-wrap: wrap;
 }
 
+h1 {
+  margin: 10px 0 10px 0;
+}
 
+span {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 5em;
+  color: gray;
+  float: left;
+  line-height: 1;
+  margin-bottom: -0.353em;
+  margin-right: 0.15em;
+  margin-left: -0.15em;
+}
 
+span.name {
+  font-family: 'MedievalSharp', cursive;
+  color: gray;
+  font-size: 1em;
+}
 
+.special {
+  margin-top: 16px;
+}
 
+p.body-first {
+  text-indent: 0;
+  color: maroon;
+  margin-right: 200px;
+}
+
+div.about {
+    padding-bottom: 80px;
+}
+
+.card {
+    border: 1px solid black;
+}
