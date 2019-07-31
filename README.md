@@ -11,7 +11,7 @@
 
 ## General Information
 
-The premise of this project is to create a website as a group of four, for a Monty Python Holy Grail inspired brewery called the Holy Grale. 
+The premise of this project is to create a website as a group of four, for a Monty Python Holy Grail inspired brewery called the Holy Grale. The website can be viewed [here.](https://suepark09.github.io/holy-grale-brewery/home.html)
 
 ## Set Up
 
