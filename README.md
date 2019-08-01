@@ -5,9 +5,9 @@
 - [Setup](https://github.com/suepark09/holy-grale-brewery#setup)
 - [Technologies Used](https://github.com/suepark09/holy-grale-brewery#technologies-used)
 - [Features](https://github.com/suepark09/holy-grale-brewery#features)
-- [Team](https://github.com/suepark09/holy-grale-brewery#team)
 - [Status](https://github.com/suepark09/holy-grale-brewery#status)
 - [What We Learned](https://github.com/suepark09/holy-grale-brewery#what-we-learned)
+- [Team](https://github.com/suepark09/holy-grale-brewery#team)
 
 
 ## General Information & Project Goals
@@ -45,13 +45,6 @@ To view the project, simply clone the repository and open home.html
 - Contact form & text input for subscriptions
 - Interactive events calendar
 
-## Team
-
-- Jerome Dela Cruz https://github.com/jjdelacruz1
-- Robert Foreman https://github.com/RobertForeman88
-- Chantee Smith https://github.com/mosaic43
-- Sue Park https://github.com/suepark09
-
 ## Status
 
 Although we completed the front-facing part of the site, the main purpose of this project was to learn more about the git workflow, while learning how to work as a team. Hence some of the features on the site may not be fully functional, and will most likely not be updated in the future.
@@ -61,3 +54,10 @@ Although we completed the front-facing part of the site, the main purpose of thi
 - Creating and switching between different branches
 - Submitting and merging pull requests
 - Resolve merge conflicts
+
+## Team
+
+- Jerome Dela Cruz https://github.com/jjdelacruz1
+- Robert Foreman https://github.com/RobertForeman88
+- Chantee Smith https://github.com/mosaic43
+- Sue Park https://github.com/suepark09
