@@ -2,7 +2,7 @@
 ## Table of Contents
 
 - [General Information & Project Goals](https://github.com/suepark09/holy-grale-brewery/blob/master/README.md#general-information-&-project-goals)
-- [Setup](https://github.com/suepark09/holy-grale-brewery#set-up)
+- [Setup](https://github.com/suepark09/holy-grale-brewery#setup)
 - [Technologies Used](https://github.com/suepark09/holy-grale-brewery#technologies-used)
 - [Features](https://github.com/suepark09/holy-grale-brewery#features)
 - [Team](https://github.com/suepark09/holy-grale-brewery#team)
